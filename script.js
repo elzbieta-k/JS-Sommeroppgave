@@ -52,7 +52,7 @@ function createOrder(name, deliveryStatus) {
   return `Hi ${capitalizedName}! Your ${capitalizedDish} will arrive in ${time}!`;
 }
 
-console.log(createOrder("ela", "on time"));
+console.log(createOrder("alex", "on time"));
 console.log(createOrder("michaEl", ""));
 console.log(createOrder("GUSTAV", "late"));
 
@@ -110,6 +110,7 @@ const checkPasswordStrength = (password) => {
   return message;
 };
 
+console.log(checkPasswordStrength("abc"));
 console.log(checkPasswordStrength("abcdefg"));
 console.log(checkPasswordStrength("password123!"));
 console.log(checkPasswordStrength("abcghyrdsh%"));
